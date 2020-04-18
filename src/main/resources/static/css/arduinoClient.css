@@ -1,0 +1,109 @@
+.top_panel_name {
+    margin:0 auto;
+    text-align: center;
+}
+
+.content-panel {
+    font-family: "Palatino Linotype";
+    height: 650px;
+}
+
+.content-panel-page {
+    width: 70%;
+    height: 95%;
+    max-width: 700px;
+    background: white;
+    margin:0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Параметры тени */
+    padding: 10px 25px;
+}
+
+.top-panel {
+    height: 8%;
+}
+
+h2 {
+    margin: 5px 0px;
+    font: 18px 'Palatino', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    font: 16px 'Palatino', sans-serif;
+}
+
+p {
+    margin: 10px;
+}
+
+.prop_key {
+    margin-right: 5px;
+}
+
+.prop_value {
+    font-style: italic;
+}
+
+a.to_console_button {
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    /*padding: .7em 1.5em; !* отступ от текста *!*/
+    outline: none; /* убирать контур в Mozilla */
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+.to_console_wrap:hover { background: #17c517; } /* при наведении курсора мышки */
+.to_console_wrap:active { background: #17ff17; } /* при нажатии */
+
+.to_console_wrap {
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    background: #17ae17; /* фон кнопки */
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 3px;
+    font: 14px 'Arial', sans-serif;
+}
+
+.sensors_table {
+    width: 100%;
+    text-align: center;
+}
+
+.add_sensor_tr td{
+    width: 33%;
+    max-width: 33%;
+}
+
+.add_sensor_btn {
+    width: 90%;
+}
+
+.sensors_table {
+    border: 1px solid #36a0d3;
+    padding: 0;
+    border-spacing: 0;
+}
+
+table tr{
+    height: 30px;
+}
+
+.sensors_table tr:nth-child(2n) {
+    background: #3ecdf81f; /* Цвет фона */
+}
+
+.table_head {
+    background: #36a0d3;
+    color: white;
+}
+
+h2 {
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
