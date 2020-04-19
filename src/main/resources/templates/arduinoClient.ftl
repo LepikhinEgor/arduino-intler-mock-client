@@ -71,6 +71,9 @@
                 <td><button class="add_sensor_btn">Add</button></td>
             </tr>
         </table>
+        <h2>Output</h2>
+        <div class="output_console">
+        </div>
     </div>
 </div>
 </body>

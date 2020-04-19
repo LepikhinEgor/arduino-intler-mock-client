@@ -107,3 +107,13 @@ h2 {
     margin: 10px 0 5px 0;
     text-align: center;
 }
+
+.output_console {
+    margin: 10px auto;
+    width: 90%;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: scroll;
+    background: #f3f3f3;
+}
