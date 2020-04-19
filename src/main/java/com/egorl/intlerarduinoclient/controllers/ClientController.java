@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ClientController {
 
-    @GetMapping("/arduino-client")
+    @GetMapping("arduino-client")
     public String getArduinoClientPage() {
         return "arduinoClient";
     }
